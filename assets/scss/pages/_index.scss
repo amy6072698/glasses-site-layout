@@ -1,5 +1,4 @@
 .slider{
-  width: 100%;
   padding: 296px 0;
   background: url(/assets/images/home-header.png) no-repeat center/cover;
 }
@@ -15,4 +14,26 @@
 }
 .classicProduct{
   padding: 80px 0;
+  a:hover{
+    opacity: 0.8;
+  }
+}
+.designProduct{
+  padding: 80px 0;
+  background: url(/assets/images/index-bg.png) no-repeat center/cover;
+  .image1{
+    padding-bottom: 240px;
+    background: url(/assets/images/home-section4-1.png) no-repeat center/cover;
+  }
+  .image2{
+    padding-bottom: 240px;
+    background: url(/assets/images/home-section4-2.png) no-repeat center/cover;
+  }
+  h3{
+    padding: 8px 0;
+    background-color: $light;
+  }
+  a:hover{
+    opacity: 0.8;
+  }
 }
