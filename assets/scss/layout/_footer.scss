@@ -16,7 +16,7 @@
     }
 }
 .contact-info{
-    font-family: "Noto Sans TC", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;   
+    font-family: "Noto Sans TC", $font-family;
     .icon{
         font-size: 36px;
         color: $light;
