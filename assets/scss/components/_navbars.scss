@@ -1,5 +1,5 @@
 .nav-l a{
-    display: block;
+    display: inline-block;
     color: $light;
     &:hover{
         color: darken($secondary-color, 10%);
