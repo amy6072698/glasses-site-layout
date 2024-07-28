@@ -2,5 +2,14 @@
   width: 100%;
   padding: 296px 0;
   background: url(/assets/images/home-header.png) no-repeat center/cover;
-  color: $primary-color-d;
+}
+.service{
+  background-color: $secondary-color;
+  padding: 80px 0;
+  .icon{
+    color: $primary-color-d;
+    font-size: 86px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
 }

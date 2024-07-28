@@ -42,8 +42,14 @@
     display: block;
 }
 
+.ta-center{
+    text-align: center;
+}
 .ta-right{
     text-align: right;
+}
+.ta-left{
+    text-align: left;
 }
 
 .fz-5{
@@ -79,6 +85,13 @@
     font-style: italic;
 }
 
+.fc-primary{
+    color: $primary-color;
+}
+.fc-primary-d{
+    color: $primary-color-d;
+}
+
 .m-0{
     margin: 0;
 }
@@ -102,6 +115,9 @@
 .mb-2{
     margin-bottom: 8px;
 }
+.mb-6{
+    margin-bottom: 24px;
+}
 .mb-8{
     margin-bottom: 32px;
 }
@@ -111,14 +127,4 @@
 
 .p-0{
     padding: 0;
-}
-
-.primary-bg{
-    background-color: $primary-color;
-}
-.primary-d-bg{
-    background-color: $primary-color-d;
-}
-.secondary-bg{
-    background-color: $secondary-color;
 }
