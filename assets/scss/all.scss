@@ -1,6 +1,9 @@
 @import './helpers/variables';
 @import './base/reset';
 
+@import './components/buttons';
+@import './components/navbars';
+
 @import './utilities/utilities';
 
 @import './layout/header.scss';
