@@ -18,3 +18,21 @@
         border-bottom: 8px solid $primary-color;
     }
 }
+.nav-pri-d-bg{
+    background-color: $primary-color-d;
+    padding: 13px 0;
+    .d-flex{
+        justify-content: space-between;
+    }
+    .icon{
+        span{
+            display: inline-block;
+            color: $light;
+            font-size: 30px;
+            vertical-align: middle;
+        }
+        &:hover span{
+            color: darken($secondary-color, 10%);
+        }
+    }
+}

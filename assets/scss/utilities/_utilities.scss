@@ -38,6 +38,9 @@
 .d-flex{
     display: flex;
 }
+.d-block{
+    display: block;
+}
 
 .fz-5{
     font-size: 20px;
@@ -97,4 +100,14 @@
 
 .p-0{
     padding: 0;
+}
+
+.primary-bg{
+    background-color: $primary-color;
+}
+.primary-d-bg{
+    background-color: $primary-color-d;
+}
+.secondary-bg{
+    background-color: $secondary-color;
 }
