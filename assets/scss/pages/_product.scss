@@ -1,0 +1,34 @@
+.product-card{
+  margin-bottom: 80px;
+  .text{
+    display: flex;
+    justify-content: space-between;
+  }
+  .colors{
+    gap: 8px;
+    li{
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+    }
+    .color1{
+      background-color: #5F3E2D;
+    }
+    .color2{
+      background-color: #B75929;
+    }
+  } 
+}
+
+
+// Product Optical Page
+.product-slider{
+  .image-l{
+    padding-bottom: 296px;
+    background: url(/assets/images/product-header-1.png) no-repeat center/cover;
+  }
+  .image-r{
+    padding-bottom: 296px;
+    background: url(/assets/images/product-header-2.png) no-repeat center/cover;
+  }
+}
