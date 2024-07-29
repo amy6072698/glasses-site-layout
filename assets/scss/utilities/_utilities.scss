@@ -1,146 +1,156 @@
 .container{
-    max-width: 1296px;
-    margin: 0 auto;
-    padding: 0 12px;
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 0 12px;
 }
 
 .row{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -12px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
 }
 
 .col-3{
-    width: 25%;
-    padding: 0 12px;
+  width: 25%;
+  padding: 0 12px;
 }
 .col-4{
-    width: 33.33333%;
-    padding: 0 12px;
+  width: 33.33333%;
+  padding: 0 12px;
 }
 .col-5{
-    width: 41.66666%;
-    padding: 0 12px;
+  width: 41.66666%;
+  padding: 0 12px;
 }
 .col-6{
-    width: 50%;
-    padding: 0 12px;
+  width: 50%;
+  padding: 0 12px;
 }
 .col-7{
-    width: 58.33333%;
-    padding: 0 12px;
+  width: 58.33333%;
+  padding: 0 12px;
 }
 .col-8{
-    width: 66.66666%;
-    padding: 0 12px;
+	width: 66.66666%;
+	padding: 0 12px;
+}
+.col-12{
+	width: 100%;
+	padding: 0 12px;
 }
 
 .d-flex{
-    display: flex;
+  display: flex;
 }
 .d-block{
-    display: block;
+  display: block;
 }
 
 .ta-center{
-    text-align: center;
+  text-align: center;
 }
 .ta-right{
-    text-align: right;
+  text-align: right;
 }
 .ta-left{
-    text-align: left;
+	text-align: left;
 }
 
 .ff-Noto{
-    font-family: "Noto Sans TC", $font-family;
+	font-family: "Noto Sans TC", $font-family;
 }
 
 .fz-5{
-    font-size: 20px;
+	font-size: 20px;
 }
 .fz-6{
-    font-size: 24px;
+	font-size: 24px;
 }
 .fz-8{
-    font-size: 32px;
+	font-size: 32px;
 }
 .fz-9{
-    font-size: 36px;
+	font-size: 36px;
 }
 .fz-12{
-    font-size: 48px;
+	font-size: 48px;
 }
 .fz-16{
-    font-size: 64px;
+	font-size: 64px;
 }
 
 .fw-medium{
-    font-weight: 500;
+	font-weight: 500;
 }
 .fw-bold{
-    font-weight: 700;
+	font-weight: 700;
 }
 .fw-black{
-    font-weight: 900;
+	font-weight: 900;
 }
 .fw-black-i{
-    font-weight: 900;
-    font-style: italic;
+	font-weight: 900;
+	font-style: italic;
 }
 
 .fc-primary{
-    color: $primary-color;
+	color: $primary-color;
 }
 .fc-primary-d{
-    color: $primary-color-d;
+	color: $primary-color-d;
 }
 .fc-light{
-    color: $light;
+	color: $light;
 }
 
 .m-0{
-    margin: 0;
+	margin: 0;
 }
 
 .ml-a{
-    margin-left: auto;
+	margin-left: auto;
 }
 .ml-8{
-    margin-left: 32px;
+	margin-left: 32px;
 }
 .ml-12{
-    margin-left: 48px;
+	margin-left: 48px;
 }
 .ml-16{
-    margin-left: 64px;
+	margin-left: 64px;
 }
 
 .mb-1{
-    margin-bottom: 4px;
+	margin-bottom: 4px;
 }
 .mb-2{
-    margin-bottom: 8px;
+	margin-bottom: 8px;
 }
 .mb-4{
-    margin-bottom: 16px;
+	margin-bottom: 16px;
 }
 .mb-6{
-    margin-bottom: 24px;
+	margin-bottom: 24px;
 }
 .mb-8{
-    margin-bottom: 32px;
+	margin-bottom: 32px;
 }
 .mb-9{
-    margin-bottom: 36px;
+	margin-bottom: 36px;
 }
 .mb-12{
-    margin-bottom: 48px;
+	margin-bottom: 48px;
 }
 .mb-18{
-    margin-bottom: 72px;
+	margin-bottom: 72px;
 }
 
 .p-0{
-    padding: 0;
+	padding: 0;
+}
+.pt-24{
+	padding-top: 96px;
+}
+.pb-20{
+	padding-bottom: 80px;
 }
