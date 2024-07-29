@@ -40,6 +40,14 @@
 
 .recommend{
   padding: 80px 0;
+  .card{
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px #00000029;
+    .text{
+      padding: 16px;
+    }
+  }
   .time{
     font-size: 14px;
     color: #707070;
