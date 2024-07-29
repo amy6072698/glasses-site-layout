@@ -1,29 +1,29 @@
 .btn{
-    display: inline-block;
-    text-align: center;
-    cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
 }
 .btn-primary{
-    background-color: $primary-color;
-    color: $light;
-    padding: 6px 12px;
-    &:hover{
-        background-color: $primary-color-d;
-    }
+	background-color: $primary-color;
+	color: $light;
+	padding: 6px 12px;
+	&:hover{
+		background-color: $primary-color-d;
+	}
 }
 .btn-primary-l{
-    background-color: $primary-color;
-    color: $light;
-    padding: 16px 176px;
-    &:hover{
-        background-color: $primary-color-d;
-    }
+	background-color: $primary-color;
+	color: $light;
+	padding: 16px 176px;
+	&:hover{
+		background-color: $primary-color-d;
+	}
 }
 .btn-dark-l{
-    background-color: $dark;
-    color: $light;
-    padding: 16px 170px;
-    &:hover{
-        color: $primary-color-d;
-    }
+	background-color: $dark;
+	color: $light;
+	padding: 16px 170px;
+	&:hover{
+		color: $primary-color-d;
+	}
 }

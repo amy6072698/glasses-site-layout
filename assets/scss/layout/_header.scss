@@ -1,17 +1,17 @@
 .header{
-    background-color: $primary-color;
-    padding: 16px 0;
-    .d-flex{
-        justify-content: space-between;
-        align-items: center;
-    }
-    .logo a{
-        display: block;
-        width: 80px;
-        height: 48px;
-        background: url(/assets/images/logo-white.png) no-repeat center/contain;
-        text-indent: 101%;
-        white-space: nowrap;
-        overflow: hidden;
-    }
+	background-color: $primary-color;
+	padding: 16px 0;
+	.d-flex{
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logo a{
+		display: block;
+		width: 80px;
+		height: 48px;
+		background: url(/assets/images/logo-white.png) no-repeat center/contain;
+		text-indent: 101%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
 }

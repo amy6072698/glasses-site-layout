@@ -1,42 +1,42 @@
 .footer{
-    background-color: $primary-color;
-    padding-top: 48px;
-    .d-flex{
-        justify-content: space-between;
-    }
-    .social img{
-        display: block;
-        width: 48px;
-        height: 48px;
-        &:hover{
-            margin-top: 4px;
-            border-radius: 8px;
-            box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-    }
+	background-color: $primary-color;
+	padding-top: 48px;
+	.d-flex{
+		justify-content: space-between;
+	}
+	.social img{
+		display: block;
+		width: 48px;
+		height: 48px;
+		&:hover{
+			margin-top: 4px;
+			border-radius: 8px;
+			box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+		}
+	}
 }
 .contact-info{
-    font-family: "Noto Sans TC", $font-family;
-    .icon{
-        font-size: 36px;
-        color: $light;
-        vertical-align: middle;
-    }
-    a{
-        font-size: 36px;
-        color: $light;
-    }
+	font-family: "Noto Sans TC", $font-family;
+	.icon{
+		font-size: 36px;
+		color: $light;
+		vertical-align: middle;
+	}
+	a{
+		font-size: 36px;
+		color: $light;
+	}
 }
 .contact-info li:hover a,
 .contact-info li:hover .icon{
-    color: darken($secondary-color, 10%);
+	color: darken($secondary-color, 10%);
 }
 
 .copyright{
-    padding: 32px 0;
-    border-top: 1px solid $light;
-    color: $light;
-    .nav-l{
-        font-size: 14px;
-    }
+	padding: 32px 0;
+	border-top: 1px solid $light;
+	color: $light;
+	.nav-l{
+		font-size: 14px;
+	}
 }

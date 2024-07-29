@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glasses | 首頁</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Glasses | 首頁</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+	</head>
   <body>
-    <header class="header">
-      <div class="container d-flex">
-        <h1 class="logo"><a href="index.html">Glasses</a></h1>
-        <ul class="nav-l d-flex fz-5">
-          <li><a href="product.html">系列鏡框</a></li>
-          <li class="ml-16"><a href="store.html">門市據點</a></li>
-          <li class="ml-16"><a href="blog.html">部落格</a></li>
-          <li class="ml-16"><a href="faq.html">常見問題</a></li>
-        </ul>
-      </div>      
-    </header>
+
+    <%- include('./layout/header.ejs'); %>
+
     <section class="slider">
       <div class="container d-flex">
         <div class="ml-a ta-right fc-primary-d">
@@ -146,6 +138,7 @@
               </div>
             </div>            
           </li>
+				</ul>
       </div>
     </section>
     <section class="contactForm">
@@ -155,109 +148,35 @@
             <h2 class="fz-12 fw-bold fc-primary-d ta-center mb-12">聯絡我們</h2>
             <p class="fz-5 mb-6">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
             <form class="d-flex" action="index.html">
+							
               <label for="person" class="mb-2">姓名</label>
               <input id="person" class="formText" type="text" placeholder="陳小明" name="person">
+
               <label for="phone" class="mb-2">聯絡電話</label>
               <input id="phone" class="formText" type="text" placeholder="0912-345-678" name="phone">
+
               <label for="mail" class="mb-2">電子郵件</label>
               <input id="mail" class="formText" type="text" placeholder="example@email.com" name="mail">
+
               <label for="feedback" class="mb-2">意見反應</label>
               <textarea id="feedback" class="formText" name="feedback" placeholder="請輸入您的意見"></textarea>
+
               <label for="agree" class="mb-12">
                 <input id="agree" type="checkbox" name="agree">
                 我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
               </label>
+
               <div class="btn">
                 <input class="btn-primary-l ff-Noto" type="submit" value="確認送出">
               </div>
+
             </form>
           </div>
         </div>
-        
       </div>
     </section>
 
-    <div class="container">
-        <ul class="row m-0">
-          <li class="col-4 nav-d p-0"><a href="product.html">OPTICAL</a></li>
-          <li class="col-4 nav-d p-0"><a href="product-sunglasses.html">SUNGLASSES</a></li>
-          <li class="col-4 nav-d p-0"><a href="#">FUNCTIONAL</a></li>
-        </ul>
-    </div>
-
-    <div class="nav-pri-d-bg">
-      <div class="container d-flex">
-      <ul class="nav-l d-flex fz-5 fw-bold">
-        <li><a href="#">最新消息</a></li>
-        <li class="ml-12"><a href="#">特別企劃</a></li>
-        <li class="ml-12"><a href="#">新品上市</a></li>
-        <li class="ml-12"><a href="#">鏡框小知識</a></li>
-      </ul>
-      <div class="icon">
-        <a href="#">
-          <span class="material-symbols-outlined">
-            search
-          </span>
-        </a>
-      </div>
-    </div>
-    </div>
-
-
-    <footer class="footer">
-      <div class="container">
-        <div class="contact d-flex">
-          <div class="text">
-            <ul class="nav-l d-flex mb-9">
-              <li><a href="index.html">首頁</a></li>
-              <li class="ml-12"><a href="product.html">系列鏡框</a></li>
-              <li class="ml-12"><a href="store.html">門市據點</a></li>
-              <li class="ml-12"><a href="blog.html">部落格</a></li>
-              <li class="ml-12"><a href="faq.html">常見問題</a></li>
-            </ul>
-            <ul class="contact-info mb-8">
-              <li class="mb-2">
-                <a href="tel:0800-000-000">
-                  <span class="icon material-symbols-outlined">call</span>
-                  0800-000-000
-                </a>
-              </li>
-              <li>
-                <a href="mailto:glasses@business.com">
-                  <span class="icon material-symbols-outlined">mail</span>
-                  glasses@business.com
-                </a>
-              </li>
-            </ul>
-          </div>          
-          <ul class="social d-flex">
-            <li>
-              <a href="https://www.facebook.com/">
-                <img src="../assets/images/ic-social-fb.png" alt="facebook link">
-              </a>
-            </li>
-            <li class="ml-8">
-              <a href="https://www.instagram.com/">
-                <img src="../assets/images/ic_social_ig.png" alt="instagram link">
-              </a>
-            </li>
-            <li class="ml-8">
-              <a href="https://line.me/tw/">
-                <img src="../assets/images/ic_social_line.png" alt="line link">
-              </a>
-            </li>
-          </ul>
-        </div>
-        
-        <div class="copyright d-flex">
-          <p>Copyright © 2020 Glasses.All rights reserved.</p>
-          <ul class="nav-l d-flex">
-            <li><a href="#">隱私權政策</a></li>
-            <li class="ml-12"><a href="#">服務條款</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+		<%- include('./layout/footer.ejs'); %>
 
     <script type="module" src="../main.js"></script>
   </body>

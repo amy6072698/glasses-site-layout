@@ -1,38 +1,38 @@
 .nav-l a{
-    display: inline-block;
-    color: $light;
-    &:hover{
-        color: darken($secondary-color, 10%);
-    }
+	display: inline-block;
+	color: $light;
+	&:hover{
+		color: darken($secondary-color, 10%);
+	}
 }
 .nav-d a{
-    display: block;
-    color: $dark;
-    font-weight: 500;
-    font-size: 32px;
-    text-align: center;
-    padding: 24px 0;
-    border: 1px solid #DCDCDC;
-    &:hover{
-        padding-bottom: 16px;
-        border-bottom: 8px solid $primary-color;
-    }
+	display: block;
+	color: $dark;
+	font-weight: 500;
+	font-size: 32px;
+	text-align: center;
+	padding: 24px 0;
+	border: 1px solid #DCDCDC;
+	&:hover{
+		padding-bottom: 16px;
+		border-bottom: 8px solid $primary-color;
+	}
 }
 .nav-pri-d-bg{
-    background-color: $primary-color-d;
-    padding: 13px 0;
-    .d-flex{
-        justify-content: space-between;
-    }
-    .icon{
-        span{
-            display: inline-block;
-            color: $light;
-            font-size: 30px;
-            vertical-align: middle;
-        }
-        &:hover span{
-            color: darken($secondary-color, 10%);
-        }
-    }
+	background-color: $primary-color-d;
+	padding: 13px 0;
+	.d-flex{
+		justify-content: space-between;
+	}
+	.icon{
+		span{
+			display: inline-block;
+			color: $light;
+			font-size: 30px;
+			vertical-align: middle;
+		}
+		&:hover span{
+			color: darken($secondary-color, 10%);
+		}
+	}
 }
