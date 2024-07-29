@@ -54,3 +54,30 @@
     margin-top: auto;
   }
 }
+
+.contactForm{
+  background-color: $secondary-color;
+  padding: 80px 0;
+  .row{
+    justify-content: center;
+  }
+  .d-flex{
+    flex-direction: column;
+  }
+  .formText{
+    font-family: "Roboto", "Noto Sans TC", $font-family;
+    margin-bottom: 16px;
+    border: 1px solid #000;
+    padding: 6px 12px;
+  }
+  ::placeholder{
+    color: rgba(0,0,0,0.2);
+  }
+  textarea{
+    height: 136px;
+    resize: none;
+  }
+  .btn-primary-l{
+    border: 0;
+  }
+}

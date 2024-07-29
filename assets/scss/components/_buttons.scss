@@ -7,14 +7,23 @@
     background-color: $primary-color;
     color: $light;
     padding: 6px 12px;
+    &:hover{
+        background-color: $primary-color-d;
+    }
 }
 .btn-primary-l{
     background-color: $primary-color;
     color: $light;
     padding: 16px 176px;
+    &:hover{
+        background-color: $primary-color-d;
+    }
 }
 .btn-dark-l{
     background-color: $dark;
     color: $light;
     padding: 16px 170px;
+    &:hover{
+        color: $primary-color-d;
+    }
 }
