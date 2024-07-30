@@ -1,0 +1,37 @@
+.pagenav{
+  display: flex;
+  justify-content: center;
+  li{
+    border-top: 1px solid $dark-gray;
+    border-bottom: 1px solid $dark-gray;
+    border-left: 1px solid $dark-gray;
+    &:last-child{
+      border-right: 1px solid $dark-gray;
+    }
+  }
+  a{
+    display: block;
+    color: $dark-gray;
+  }
+  .page{
+    line-height: 29px;
+    font-size: 19px;
+    padding: 11px 12px;
+    &:hover{
+      background-color: $light-gray;
+    }
+  }
+  .num{
+    line-height: 27px;
+    font-size: 18px;
+    padding: 12px 16px;
+    &:hover{
+      color: $light;
+      background-color: $dark;
+    }
+    &:focus{
+      color: $light;
+      background-color: $dark;
+    }
+  }
+}

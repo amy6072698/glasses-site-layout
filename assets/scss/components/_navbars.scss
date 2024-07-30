@@ -17,6 +17,10 @@
 		padding-bottom: 16px;
 		border-bottom: 8px solid $primary-color;
 	}
+	&:focus{
+		padding-bottom: 16px;
+		border-bottom: 8px solid $primary-color;
+	}
 }
 .nav-pri-d-bg{
 	background-color: $primary-color-d;
