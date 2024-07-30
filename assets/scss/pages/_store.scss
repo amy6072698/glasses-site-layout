@@ -31,3 +31,12 @@
     line-height: 27px;
   }
 }
+
+.map-image{
+  width: 100%;
+  .image{
+    width: 746px;
+    height: 414px;
+    background: url(/assets/images/storepage-1-map.png) no-repeat center/cover;
+  }
+}
