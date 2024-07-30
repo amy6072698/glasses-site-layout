@@ -19,11 +19,11 @@
 		background-color: $primary-color-d;
 	}
 }
-.btn-dark-l{
+.btn-dark{
 	background-color: $dark;
 	color: $light;
-	padding: 16px 170px;
+	padding: 16px 0;
 	&:hover{
-		color: $primary-color-d;
+		background-color: $primary-color-d;
 	}
 }
