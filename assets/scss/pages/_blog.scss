@@ -1,0 +1,23 @@
+.blog-image{
+  img{
+    display: block;
+  }
+}
+
+.blog-text{
+  display: flex;
+  flex-direction: column;
+  .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 16px;
+  }
+  .more-btn{
+    text-align: right;
+    margin-top: auto;
+    &:hover a{
+      color: $primary-color;
+    }
+  }
+}
