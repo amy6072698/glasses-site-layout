@@ -15,22 +15,22 @@
 
     <%- include('./layout/header.ejs'); %>
 
-    <main class="container pt-24 pb-8">
+    <main class="container pt-24 pb-20">
       <h2 class="title-primary mb-8">門市據點</h2>
       <form  class="store-area-select mb-10" action="store.html">
         <label class="fz-6" for="store">選擇分店</label>
         <select name="store" id="store">
-          <option value="Taipei">台北市</option>
-          <option value="Taichung">台中市</option>
-          <option value="Kaohsiung">高雄市</option>
-          <option value="Kaohsiung">高雄市</option>
-          <option value="Kaohsiung">高雄市</option>
+          <option value="Taipei-store1">台北中山旗艦店</option>
+          <option value="Taipei-store2">台北綠園店</option>
+          <option value="Taichung-store1">台中清水旗艦店</option>
+          <option value="Kaohsiung-store1">高雄中正形象店</option>
+          <option value="Kaohsiung-store2">高雄夢時代店</option>
         </select>
       </form>
       
       <div class="row">
         <div class="col-5">
-          <div class="store-card">
+          <div class="store-card storepage-card">
             <img src="/assets/images/storepage-1.png" alt="">
             <div class="text">
               <h3 class="title bd">台北中山旗艦店</h3>
@@ -58,8 +58,8 @@
           </div>
         </div>
         <div class="col-7">
-          <div class="map-image">
-            <div class="image"></div>
+          <div class="storepage-map">
+            <img src="/assets/images/storepage-1-map.png" alt="">
           </div>
         </div>
       </div>
