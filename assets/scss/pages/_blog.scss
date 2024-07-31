@@ -21,3 +21,28 @@
     }
   }
 }
+
+.blogpage{
+  padding-top: 24px;
+  padding-bottom: 80px;
+}
+
+.tags{
+  a{
+    display: inline-block;
+    margin-right: 24px;
+    color: $primary-color;
+    font-weight: 700;
+    font-size: 24px;
+    &:hover{
+      color: $primary-color-d;
+    }
+  }
+}
+.tags-title{
+  font-size: 32px;
+  font-weight: 700;
+  color: $primary-color;
+  padding-top: 76px;
+  margin-bottom: 4px;
+}
