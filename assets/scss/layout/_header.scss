@@ -1,6 +1,5 @@
 .header{
 	background-color: $primary-color;
-	padding: 16px 0;
 	.d-flex{
 		justify-content: space-between;
 		align-items: center;
@@ -16,21 +15,25 @@
 	}
 	.nav-l{
 		a{
-			margin-left: 64px;
+			display: block;
+			padding: 25px;
+			margin-left: 14px;
 		}
 	}
 }
 
 @media (max-width: 992px){
 	.header{
-		padding: 16px 24px;
+		padding: 0 24px;
 	}
 }
 
 @media (max-width: 767px){
 	.header{
-		margin: 0 -12px;
 		padding: 0;
+		.container{
+			padding: 0;
+		}
 		.d-flex{
 			flex-wrap: wrap;
 		}
@@ -40,7 +43,8 @@
 		.nav-l{
 			width: 100%;
 			a{
-				margin: 12px 0;
+				margin-left: 0;
+				padding: 12px 0;
 			}
 			li{
 				width: 50%;
