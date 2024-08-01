@@ -1,8 +1,13 @@
 .footer{
 	background-color: $primary-color;
-	padding-top: 48px;
-	.d-flex{
+	padding: 48px 0 32px 0;
+	.contact{
+		display: flex;
 		justify-content: space-between;
+	}
+	.footer-nav{
+		display: flex;
+		margin-bottom: 36px;
 	}
 	.social img{
 		display: block;
@@ -17,6 +22,7 @@
 }
 .contact-info{
 	font-family: "Noto Sans TC", $font-family;
+	margin-bottom: 32px;
 	a{
 		font-size: 36px;
 		color: $light;
@@ -32,10 +38,67 @@
 }
 
 .copyright{
-	padding: 32px 0;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 32px;
 	border-top: 1px solid $light;
 	color: $light;
 	.nav-l{
 		font-size: 14px;
+		li{
+			margin-left: 48px;
+		}
+	}
+}
+
+@media (max-width: 992px){
+	.footer{
+		padding: 48px 24px 40px 24px;
+		.social{
+			.ml-8{
+				margin-left: 16px;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px){
+	.footer{
+		padding: 24px 2px;
+		.footer-nav{
+			display: none;
+		}
+		.social{
+			.ml-8{
+				margin-left: 8px;
+			}
+			img{
+				width: 24px;
+				height: 24px;
+			}
+		}
+	}
+	.contact-info{
+		margin-bottom: 24px;
+		a{
+			font-size: 16px;
+		}
+		.icon{
+			font-size: 18px;
+		}
+	}
+	.copyright{
+		display: block;
+		padding-top: 16px;
+		.d-flex{
+			display: block;
+		}
+		.nav-l{
+			font-size: 16px;
+			li{
+				margin-left: 0;
+				margin-top: 8px;
+			}
+		}
 	}
 }
