@@ -17,14 +17,13 @@
 }
 .contact-info{
 	font-family: "Noto Sans TC", $font-family;
-	.icon{
-		font-size: 36px;
-		color: $light;
-		vertical-align: middle;
-	}
 	a{
 		font-size: 36px;
 		color: $light;
+	}
+	.icon{
+		font-size: 36px;
+		vertical-align: text-bottom;
 	}
 }
 .contact-info li:hover a,
