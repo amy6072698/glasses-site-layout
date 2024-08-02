@@ -35,3 +35,15 @@
     }
   }
 }
+
+@media (max-width: 767px){
+	.pagenav{
+    .page{
+      line-height: 26px;
+      font-size: 16px;
+    }
+    .num{
+      font-size: 16px;
+    }
+  }
+}
