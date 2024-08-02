@@ -16,8 +16,8 @@
 	.nav-l{
 		a{
 			display: block;
-			padding: 25px;
-			margin-left: 14px;
+			padding: 25px 0;
+			margin-left: 64px;
 		}
 	}
 }
@@ -45,6 +45,7 @@
 			a{
 				margin-left: 0;
 				padding: 12px 0;
+				font-size: 16px;
 			}
 			li{
 				width: 50%;
@@ -54,9 +55,6 @@
 			&.d-flex{
 				flex-wrap: wrap;
 				justify-content: center;
-			}
-			&.fz-5{
-				font-size: 16px;
 			}
 		}
 	}

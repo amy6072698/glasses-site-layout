@@ -47,19 +47,50 @@
 
 .nav-pri-d-bg{
 	background-color: $primary-color-d;
-	padding: 13px 0;
-	.d-flex{
+	.nav-l a{
+		padding: 13px 0;
+	}
+	.container.d-flex{
 		justify-content: space-between;
 	}
 	.icon{
 		span{
 			display: inline-block;
+			padding: 13px 0;
 			color: $light;
 			font-size: 30px;
 			vertical-align: middle;
 		}
 		&:hover span{
 			color: darken($secondary-color, 10%);
+		}
+	}
+}
+
+@media (max-width: 992px){
+	.nav-pri-d-bg{
+		padding: 0 24px;
+	}
+}
+
+@media (max-width: 767px){
+	.nav-pri-d-bg{
+		padding: 0 2px;
+		.d-flex{
+			width: 100%;
+			justify-content: center;
+		}
+		.icon{
+			display: none;
+		}
+		.nav-l{
+			a{
+				font-size: 16px;
+				padding: 12px 0;
+			}
+			.ml-12{
+				margin-left: 25px;
+			}
 		}
 	}
 }
