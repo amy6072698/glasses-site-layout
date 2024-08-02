@@ -2,6 +2,28 @@
   padding: 296px 0;
   background: url(/assets/images/home-header.png) no-repeat center/cover;
 }
+
+@media (max-width: 992px){
+  .slider{
+    padding: 296px 24px 296px 0;
+    background: url(/assets/images/home-header-sm.png) no-repeat center/cover;
+  }
+}
+@media (max-width: 767px){
+  .slider{
+    padding: 144px 2px 144px 0;
+    .fz-9{
+      font-size: 16px;
+    }
+    .fz-16{
+      font-size: 24px;
+    }
+    .mb-1{
+      margin-bottom: 8px;
+    }
+  }
+}
+
 .service{
   background-color: $secondary-color;
   padding: 80px 0;
@@ -9,15 +31,74 @@
     color: $primary-color-d;
     font-size: 86px;
     font-weight: 600;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
   }
 }
+
+@media (max-width: 992px){
+  .service{
+    padding: 80px 24px 56px 24px;
+    .row{
+      flex-wrap: wrap;
+      .col-3{
+        width: 50%;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
+@media (max-width: 767px){
+  .service{
+    padding: 40px 2px 16px 2px;
+    .row{
+      .col-3{
+        width: 100%;
+      }
+    }
+    h2.fz-12{
+      font-size: 24px;
+    }
+  }
+}
+
 .classicProduct{
   padding: 80px 0;
+  img{
+    display: block;
+  }
   a:hover{
     opacity: 0.8;
   }
 }
+
+@media (max-width: 992px){
+  .classicProduct{
+    padding: 80px 24px 56px 24px;
+    .row{
+      flex-direction: column;
+      align-items: center;
+      .col-4{
+        width: 50%;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
+@media (max-width: 767px){
+  .classicProduct{
+    padding: 40px 2px 16px 2px;
+    h2.fz-12{
+      font-size: 24px;
+      margin-bottom: 24px;
+    }
+    .row{
+      .col-4{
+        width: 100%;
+      }
+    }
+  }
+}
+
 .designProduct{
   padding: 80px 0;
   background: url(/assets/images/index-bg.png) no-repeat center/cover;
@@ -38,13 +119,52 @@
   }
 }
 
+@media (max-width: 992px){
+  .designProduct{
+    padding: 80px 24px 56px 24px;
+    background: url(/assets/images/index-bg-md.png) no-repeat center/cover;
+    .row{
+      flex-direction: column;
+      align-items: center;
+      .col-6{
+        width: 100%;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
+@media (max-width: 767px){
+  .designProduct{
+    padding: 40px 2px 16px 2px;
+    background: url(/assets/images/index-bg-sm.png) no-repeat center/cover;
+    .image1{
+      padding-bottom: 240px;
+      background: url(/assets/images/home-section4-1-sm.png) no-repeat center/cover;
+    }
+    .image2{
+      padding-bottom: 240px;
+      background: url(/assets/images/home-section4-2-sm.png) no-repeat center/cover;
+    }
+    h2.fz-12{
+      font-size: 24px;
+      margin-bottom: 24px;
+    }
+  }
+}
+
 .recommend{
   padding: 80px 0;
   .card{
     border: 1px solid #DEE2E6;
     border-radius: 4px;
     box-shadow: 0 2px 6px #00000029;
+    img{
+      display: block;
+    }
     .text{
+      display: flex;
+      flex-direction: column;
+      height: 205px;
       padding: 16px;
     }
   }
@@ -52,6 +172,34 @@
     font-size: 14px;
     color: #707070;
     margin-top: auto;
+  }
+}
+
+@media (max-width: 992px){
+  .recommend{
+    padding: 80px 24px 56px 24px;
+    .row{
+      flex-wrap: wrap;
+      .col-3{
+        width: 50%;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
+@media (max-width: 767px){
+  .recommend{
+    padding: 40px 2px 24px 2px;
+    .row{
+      .col-3{
+        width: 100%;
+        margin-bottom: 16px;
+      }
+    }
+    h2.fz-12{
+      font-size: 24px;
+      margin-bottom: 24px;
+    }
   }
 }
 
@@ -77,6 +225,11 @@
     height: 136px;
     resize: none;
   }
+  .agree{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 48px;
+  }
   .btn{
     width: 66.66666%;
     margin: 0 auto;
@@ -84,5 +237,31 @@
   .btn-primary-l{
     width: 100%;
     border: 0;
+  }
+}
+
+@media (max-width: 992px){
+  .contactForm{
+    padding: 80px 84px;
+    .col-6{
+      width: 100%;
+    }
+    h2.fz-12{
+      margin-bottom: 24px;
+    }
+    p.fz-5{
+      font-size: 16px;
+    }
+  }
+}
+@media (max-width: 767px){
+  .contactForm{
+    padding: 40px 2px;
+    .agree{
+      margin-bottom: 24px;
+    }
+    h2.fz-12{
+      font-size: 24px;
+    }
   }
 }
