@@ -1,0 +1,18 @@
+.faq{
+  padding-top: 96px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 992px){
+  .faq{
+    padding: 80px 36px;
+  }
+}
+@media (max-width: 767px){
+  .faq{
+    padding: 40px 14px 64px 14px;
+    .mb-8{
+      margin-bottom: 24px;
+    }
+  }
+}
