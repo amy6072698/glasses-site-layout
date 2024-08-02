@@ -118,6 +118,10 @@
   padding-bottom: 80px;
   .store-card{
     margin-bottom: 0;
+    .image{
+      padding-top: 224px;
+      background: url(/assets/images/storepage-1.png) no-repeat center/cover;
+    }
   }
 }
 
@@ -126,5 +130,47 @@
   img{
     display: block;
     height: 100%;
+  }
+}
+
+@media (max-width: 992px){
+  .storepage{
+    padding: 80px 36px;
+    .col-5{
+      width: 100%;
+    }
+    .col-7{
+      width: 100%;
+    }
+    .store-card{
+      display: flex;
+      margin-bottom: 24px;
+      .image{
+        width: 50%;
+        background: url(/assets/images/store-1.png) no-repeat center/cover;
+      }
+      .text{
+        width: 50%;
+        margin-left: 24px;
+      }
+    }
+  }
+}
+@media (max-width: 767px){
+  .storepage{
+    padding: 40px 14px 64px 14px;
+    h2.mb-8{
+      margin-bottom: 24px;
+    }
+    .store-card{
+      display: block;
+      .image{
+        width: 100%;
+      }
+      .text{
+        width: 100%;
+        margin-left: 0;
+      }
+    }
   }
 }
