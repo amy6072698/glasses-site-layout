@@ -1,27 +1,73 @@
+// Product //
+.product{
+  padding: 80px 0;
+}
 .product-card{
-  margin-bottom: 80px;
-  .text{
-    display: flex;
-    justify-content: space-between;
+  .card{
+    margin-bottom: 80px;
+    .text{
+      display: flex;
+      justify-content: space-between;
+    }
+    .colors{
+      gap: 8px;
+      li{
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+      }
+      .color1{
+        background-color: #5F3E2D;
+      }
+      .color2{
+        background-color: #B75929;
+      }
+    } 
   }
-  .colors{
-    gap: 8px;
-    li{
-      width: 24px;
-      height: 24px;
-      border-radius: 4px;
-    }
-    .color1{
-      background-color: #5F3E2D;
-    }
-    .color2{
-      background-color: #B75929;
-    }
-  } 
 }
 
 
-// Product Optical Page
+@media (max-width: 992px){
+  .product{
+    padding: 80px 36px;
+  }
+  .product-card{
+    margin-bottom: 40px;
+    .row{
+      flex-wrap: wrap;
+      .col-3{
+        width: 50%;
+      }
+    }
+    .card{
+      margin-bottom: 40px;
+    }
+  }
+}
+@media (max-width: 767px){
+  .product{
+    padding: 40px 14px 64px 14px;
+    h2{
+      font-size: 24px;
+      &.mb-8{
+        margin-bottom: 24px;
+      }
+    }
+  }
+  .product-card{
+    margin-bottom: 40px;
+    .row{
+      .col-3{
+        width: 100%;
+      }
+    }
+    .card{
+      margin-bottom: 24px;
+    }
+  }
+}
+
+// Product Optical Page //
 .product-slider{
   .image-l{
     padding-bottom: 296px;
@@ -33,7 +79,18 @@
   }
 }
 
-// Product Sunglasses Page
+@media (max-width: 992px){
+  .product-slider{
+    .image-l{
+      background: url(/assets/images/product-header-sm-1.png) no-repeat center/cover;
+    }
+    .image-r{
+      background: url(/assets/images/product-header-sm-2.png) no-repeat center/cover;
+    }
+  }  
+}
+
+// Product Sunglasses Page //
 .product-sg-slider{
   .image-l{
     padding-bottom: 296px;
@@ -43,4 +100,15 @@
     padding-bottom: 296px;
     background: url(/assets/images/product-header-4.png) no-repeat center/cover;
   }
+}
+
+@media (max-width: 992px){
+  .product-sg-slider{
+    .image-l{
+      background: url(/assets/images/product-header-sm-3.png) no-repeat center/cover;
+    }
+    .image-r{
+      background: url(/assets/images/product-header-sm-4.png) no-repeat center/cover;
+    }
+  } 
 }

@@ -1,3 +1,4 @@
+// Index slider //
 .slider{
   padding: 296px 0;
   background: url(/assets/images/home-header.png) no-repeat center/cover;
@@ -24,6 +25,7 @@
   }
 }
 
+// Index service //
 .service{
   background-color: $secondary-color;
   padding: 80px 0;
@@ -61,6 +63,7 @@
   }
 }
 
+// Index classicProduct //
 .classicProduct{
   padding: 80px 0;
   img{
@@ -99,6 +102,7 @@
   }
 }
 
+// Index designProduct //
 .designProduct{
   padding: 80px 0;
   background: url(/assets/images/index-bg.png) no-repeat center/cover;
@@ -152,6 +156,7 @@
   }
 }
 
+// Index recommend //
 .recommend{
   padding: 80px 0;
   .card{
@@ -203,6 +208,7 @@
   }
 }
 
+// Index contactForm //
 .contactForm{
   background-color: $secondary-color;
   padding: 80px 0;
