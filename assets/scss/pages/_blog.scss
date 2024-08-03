@@ -177,6 +177,45 @@
   }
 }
 
+@media (max-width: 992px){
+  .blogpage{
+    padding: 8px 24px 80px 24px;
+    p.mb-4{
+      margin-bottom: 24px;
+    }
+  }
+  .para{
+    .mb-2{
+      margin-bottom: 16px;
+    }
+    .mb-10{
+      margin-bottom: 24px;
+    }
+  }
+}
+@media (max-width: 767px){
+  .blogpage{
+    padding: 16px 2px 48px 2px;
+    p.mb-4{
+      margin-bottom: 16px;
+    }
+    .col-8{
+      width: 100%;
+    }
+    .col-4{
+      display: none;
+    }
+  }
+  .para{
+    .mb-2{
+      margin-bottom: 8px;
+    }
+    .mb-10{
+      margin-bottom: 16px;
+    }
+  }
+}
+
 .page-switch{
   .share{
     display: flex;
@@ -212,6 +251,11 @@
 .switch li:hover .icon{
 	color: $primary-color;
 }
+@media (max-width: 767px){
+  .page-switch{
+    display: none;
+  }
+}
 
 .tags{
   a{
@@ -220,9 +264,17 @@
     color: $primary-color;
     font-weight: 700;
     font-size: 24px;
+    margin-bottom: 4px;
     &:hover{
       color: $primary-color-d;
     }
+  }
+}
+.tags-top{
+  display: flex;
+  margin-bottom: 8px;
+  a{
+    margin-right: 15px;
   }
 }
 .tags-title{
@@ -232,28 +284,39 @@
   padding-top: 76px;
   margin-bottom: 4px;
   .icon{
+    margin-right: 8px;
     font-size: 48px;
     vertical-align: bottom;
   }
 }
 
 @media (max-width: 992px){
-  .slider{
-    padding: 296px 24px 296px 0;
-    background: url(/assets/images/home-header-sm.png) no-repeat center/cover;
+  .tags{
+    a{
+      margin-right: 16px;
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+  }
+  .tags-top{
+    a{
+      font-size: 24px;
+    }
+  }
+  .tags-title{
+    font-size: 16px;
+    padding-top: 84px;
+    margin-bottom: 8px;
+    .icon{
+      font-size: 24px;
+    }
   }
 }
 @media (max-width: 767px){
-  .slider{
-    padding: 144px 2px 144px 0;
-    .fz-9{
+  .tags-top{
+    a{
       font-size: 16px;
-    }
-    .fz-16{
-      font-size: 24px;
-    }
-    .mb-1{
-      margin-bottom: 8px;
+      margin-right: 16px;
     }
   }
 }
