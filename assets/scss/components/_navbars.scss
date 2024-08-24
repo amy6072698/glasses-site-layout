@@ -5,6 +5,7 @@
 		color: darken($secondary-color, 10%);
 	}
 }
+
 .nav-d a{
 	display: block;
 	color: $dark;
@@ -17,16 +18,17 @@
 		padding-bottom: 16px;
 		border-bottom: 8px solid $primary-color;
 	}
+	&:active{
+		color: $primary-color;
+	}
 	&:focus{
 		padding-bottom: 16px;
 		border-bottom: 8px solid $primary-color;
 	}
 }
 
+
 @media (max-width: 992px){
-	.nav-d-outter{
-		margin: 0 -12px;
-	}
 	.nav-d a{
 		font-size: 24px;
 		padding: 16px 0;

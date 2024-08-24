@@ -1,18 +1,22 @@
 // Index slider //
 .slider{
-  padding: 296px 0;
   background: url(/assets/images/home-header.png) no-repeat center/cover;
 }
+.silder-item{
+  height: 787px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 
 @media (max-width: 992px){
   .slider{
-    padding: 296px 24px 296px 0;
     background: url(/assets/images/home-header-sm.png) no-repeat center/cover;
   }
 }
 @media (max-width: 767px){
   .slider{
-    padding: 144px 2px 144px 0;
     .fz-9{
       font-size: 16px;
     }
@@ -223,6 +227,7 @@
     margin-bottom: 16px;
     border: 1px solid #000;
     padding: 6px 12px;
+    background-color: transparent;
   }
   ::placeholder{
     color: rgba(0,0,0,0.2);
@@ -230,11 +235,6 @@
   textarea{
     height: 136px;
     resize: none;
-  }
-  .agree{
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 48px;
   }
   .btn{
     width: 66.66666%;
@@ -244,6 +244,34 @@
     width: 100%;
     border: 0;
   }
+}
+
+// Agree checkbox
+.contactForm-agree{
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+  position: relative;
+}
+.contactForm-checkstyle{
+  display: inline-block;
+  border: 2px solid #000;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  position: absolute;
+  left: 0.7%;
+}
+.contactForm-checkbox{
+  z-index: 1;
+  opacity: 0;
+  accent-color: #000000;
+  &:checked{
+    opacity: 1;
+  }
+}
+.contactForm-checkbox:checked ~ .contactForm-checkstyle{
+  display: none;
 }
 
 @media (max-width: 992px){
@@ -263,11 +291,11 @@
 @media (max-width: 767px){
   .contactForm{
     padding: 40px 2px;
-    .agree{
-      margin-bottom: 24px;
-    }
     h2.fz-12{
       font-size: 24px;
     }
+  }
+  .contactForm-agree{
+    margin-bottom: 24px;
   }
 }

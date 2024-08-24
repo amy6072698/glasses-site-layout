@@ -101,6 +101,9 @@
   }
 }
 @media (max-width: 767px){
+  .navbar-blog-hidden{
+    display: none;
+  }
   .blog{
     padding: 40px 14px 64px 14px;
     .mb-8{
@@ -224,8 +227,6 @@
     margin-bottom: 24px;
     a{
       display: block;
-      color: $dark;
-      font-weight: 700;
       &:hover{
         transform: scale(1.1);
       }
