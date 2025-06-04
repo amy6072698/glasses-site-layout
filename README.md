@@ -1,23 +1,23 @@
 
 # 眼鏡官網 - Vite + SCSS 切版專案
 
-使用 Vite + SCSS 製作，導入 Sass 預處理器建構網站樣式的切版專案
+使用 Vite + SCSS 製作，導入 Sass 預處理器建構眼鏡官網樣式的切版專案
 
 ---
 
-🔗 Demo 連結（如果有的話）
+### 🔗 Demo 連結
 
 🔗 [Live Demo](https://amy6072698.github.io/glasses-site-layout/)
 
 ---
 
-⚙️ 使用技術
+### ⚙️ 使用技術
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
 ---
 
-👀 專案展示
+### 👀 專案展示
 
 ![首頁](https://cdn.discordapp.com/attachments/1379766613926088797/1379770379731603467/image.png?ex=684172cd&is=6840214d&hm=5565d258064dcfcbc28ceec7de650620876866149e5177cd32e9fccbd05997f1&)
 
@@ -29,11 +29,12 @@
 
 ---
 
-✏️ 開發心得
+### ✏️ 開發心得
 
 透過專案熟悉 SCSS 語法，並學習如何拆分網站重複元件，以匯入匯出方式更清楚的分類管理各種檔案
 
 ---
-👏 設計素材來源
+
+### 👏 設計素材來源
 
 六角學院
