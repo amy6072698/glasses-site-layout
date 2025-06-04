@@ -19,13 +19,13 @@
 
 ### 👀 專案展示
 
-![首頁](https://cdn.discordapp.com/attachments/1379766613926088797/1379770379731603467/image.png?ex=684172cd&is=6840214d&hm=5565d258064dcfcbc28ceec7de650620876866149e5177cd32e9fccbd05997f1&)
+![首頁](https://github.com/amy6072698/glasses-site-layout/blob/main/assets/images/preview/index-banner.png?raw=true)
 
-![客戶推薦](https://cdn.discordapp.com/attachments/1379766613926088797/1379771153127833760/image.png?ex=68417385&is=68402205&hm=12b45498541860b834d21fe0d4ad3ce783f8986435504141a35b0390c6450d4f&)
+![客戶推薦](https://github.com/amy6072698/glasses-site-layout/blob/main/assets/images/preview/reveiw.png?raw=true)
 
-![眼鏡展示](https://cdn.discordapp.com/attachments/1379766613926088797/1379770689783070730/image.png?ex=68417317&is=68402197&hm=f2aff1a4db21b5fd5df26c94937e9312a3510deb2ce94df061010172f4306f42&)
+![眼鏡展示](https://github.com/amy6072698/glasses-site-layout/blob/main/assets/images/preview/products.png?raw=true)
 
-![部落格](https://cdn.discordapp.com/attachments/1379766613926088797/1379770875015987261/image.png?ex=68417343&is=684021c3&hm=7ee87b6dbf6b7293d18f4471bc87a353f486bf57f3de295a29fe8e685e8af06a&)
+![部落格](https://github.com/amy6072698/glasses-site-layout/blob/main/assets/images/preview/blog.png?raw=true)
 
 ---
 
