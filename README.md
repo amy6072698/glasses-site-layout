@@ -1,5 +1,5 @@
 
-# 眼鏡官網 - Vite + SCSS 切版專案
+# Glasses 眼鏡官網 - Vite + SCSS 切版專案
 
 使用 Vite + SCSS 製作，導入 Sass 預處理器建構眼鏡官網樣式的切版專案
 
